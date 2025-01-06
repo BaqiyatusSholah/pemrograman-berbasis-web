@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Poppins&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins";
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    margin: 5em auto;
+    padding: 7em 6em;
+}
+
+.box-input{
+    width: 40%;
+    height: 300px;
+}
+
+.box-tampil{
+    background-color: #fffdd0;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+input{
+    height: 2em;
+    border-radius: 10px;
+    width: 200px;
+    padding: 4px 3px;
+}
+
+#tmb-atur{
+    cursor: pointer;
+    width: 200px;
+    margin: 2.5em 0;
+    padding: .5em 1em;
+    border-radius: 15px;
+}
+
+th{
+    background-color: rgb(58, 192, 58);
+    width: 150px;
+    height: 25px;
+    border-radius: 10px;
+}
+
+.tmb-edit{
+    cursor: pointer;
+    width: 60px;
+    background-color: yellow;
+    margin: 0 5px;
+}
+
+.tmb-hapus{
+    cursor: pointer;
+    width: 60px;
+    background-color: red;
+    margin: 0 5px;
+}
